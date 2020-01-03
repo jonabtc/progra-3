@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.brutalcorpse.gpacalculadora.MainActivity">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/pestania1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="NUEVO CURSO"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:id="@+id/textView2"
+                        android:gravity="center"
+                        android:paddingTop="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:layout_below="@+id/textView2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="28dp"
+                        android:id="@+id/cmpCurso"
+                        android:hint="Nombre del curso" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName|number"
+                        android:ems="10"
+                        android:layout_below="@+id/cmpCurso"
+                        android:layout_alignLeft="@+id/cmpCurso"
+                        android:layout_alignStart="@+id/cmpCurso"
+                        android:id="@+id/cmpCreditos"
+                        android:hint="Creditos del curso" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:layout_below="@+id/cmpCreditos"
+                        android:layout_alignLeft="@+id/cmpCreditos"
+                        android:layout_alignStart="@+id/cmpCreditos"
+                        android:id="@+id/cmpNota"
+                        android:hint="Nota del curso"
+                        android:digits="ABCDFabcdf"
+                        android:maxLength="1" />
+
+                    <Button
+                        android:text="AGREGAR"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cmpNota"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="27dp"
+                        android:id="@+id/btnAgregar"
+                        android:enabled="false"
+                        android:onClick="clickBotonAgregar"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pestania2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/listaCursos" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom">
+
+                        <Button
+                            android:text="REINICIAR"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnReinicio"
+                            android:layout_weight="1"
+                            style="@style/Widget.AppCompat.Button"
+                            android:onClick="reiniciarTodo"/>
+
+                        <Button
+                            android:text="CALCULAR GPA"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnCalcular"
+                            android:layout_weight="1"
+                            style="@style/Widget.AppCompat.Button"
+                            android:onClick="calcularGPA"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

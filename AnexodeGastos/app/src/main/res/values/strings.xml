@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Anexo de Gastos</string>
+    <string name="str_fecha">Fecha:</string>
+    <string name="str_tipo">Tipo:</string>
+    <string name="str_valor">Valor:</string>
+    <string name="str_agregar">AGREGAR</string>
+    <string name="str_guardar">GUARDAR</string>
+    <string name="str_cancel">CANCELAR</string>
+    <string name="str_editar">EDITAR</string>
+    <string name="str_eliminar">ELIMINAR</string>
+    <string name="str_tituloDialogo">ÍTEM SELECCIONADO</string>
+    <string name="str_filtrar">Filtrar:</string>
+    <string name="str_vivienda">Vivienda: $</string>
+    <string name="str_alimentacion">Alimentación: $</string>
+    <string name="str_salud">Salud: $</string>
+    <string name="str_educacion">Educación: $</string>
+    <string name="str_vestimenda">Vestimenta: $</string>
+
+    <string-array name="array_tipos">
+        <item>Vivienda</item>
+        <item>Alimentación</item>
+        <item>Salud</item>
+        <item>Educación</item>
+        <item>Vestimenta</item>
+    </string-array>
+    <string-array name="array_filtros">
+        <item>--------</item>
+        <item>Vivienda</item>
+        <item>Alimentación</item>
+        <item>Salud</item>
+        <item>Educación</item>
+        <item>Vestimenta</item>
+    </string-array>
+
+</resources>

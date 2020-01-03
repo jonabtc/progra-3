@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculadora de Gastos</string>
+    <string-array name="array_tipos">
+        <item>Vivienda</item>
+        <item>Alimentación</item>
+        <item>Salud</item>
+        <item>Educación</item>
+        <item>Vestimenta</item>
+    </string-array>
+
+</resources>

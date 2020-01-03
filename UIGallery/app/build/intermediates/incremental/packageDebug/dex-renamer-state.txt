@@ -1,0 +1,4 @@
+#Thu Apr 06 04:53:43 ECT 2017
+base.0=/home/brutalcorpse/Dropbox/Semestre8/ANDROID/proyectos/UIGallery/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/brutalcorpse/Dropbox/Semestre8/ANDROID/proyectos/UIGallery/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

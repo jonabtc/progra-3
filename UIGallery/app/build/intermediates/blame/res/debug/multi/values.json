@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/brutalcorpse/Dropbox/Semestre8/ANDROID/proyectos/UIGallery/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 46,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "/home/brutalcorpse/Dropbox/Semestre8/ANDROID/proyectos/UIGallery/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            }
+        ]
+    }
+]
